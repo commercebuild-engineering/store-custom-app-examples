@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/@commercebuild/extension/schemas/config.schema.json",
+  "connections": [
+    {
+      "name": "returns",
+      "provider": "backend",
+      "scope": "app",
+      "label": "Returns service",
+      "description": "The returns service: request lifecycle, photos, notes, settings and email.",
+      "forwardPlatformToken": true,
+      "config": {
+        "baseUrl": "https://store-customer-return.vercel.app/api"
+      }
+    }
+  ]
+}

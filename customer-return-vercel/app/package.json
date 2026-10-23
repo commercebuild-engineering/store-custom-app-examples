@@ -1,0 +1,24 @@
+{
+  "name": "customer-return-remote",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "commercebuild-extension dev",
+    "build": "commercebuild-extension build",
+    "save": "npx commercebuild-cli@latest extension save",
+    "deploy": "npx commercebuild-cli@latest extension commit",
+    "release": "npx commercebuild-cli@latest extension release",
+    "type-check": "commercebuild-extension type-check"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commercebuild/extension": "^0.*"
+  }
+}

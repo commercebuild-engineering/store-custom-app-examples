@@ -1,0 +1,8 @@
+{
+  "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+  "name": "Customer Return - Vercel",
+  "type": "extension",
+  "description": "Customer returns with a remote backend: the UI runs in commercebuild, the returns logic, data and email run in an external service.",
+  "version": "0.0.1",
+  "cbApiVersion": "^0.8"
+}

@@ -1,0 +1,8 @@
+/* === Keep these Tailwind lines (host-safe: utilities only) === */
+@reference "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+@config "@commercebuild/extension/config/tailwind.config.js";
+@source "../";
+@source not "../admin";
+
+/* ===  Write custom styles below   === */

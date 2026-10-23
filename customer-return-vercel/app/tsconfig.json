@@ -1,0 +1,5 @@
+{
+  "extends": "@commercebuild/extension/config/tsconfig.extension.json",
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}
